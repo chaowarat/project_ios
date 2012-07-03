@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDFA683613F3B36F00351009 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFA683513F3B36F00351009 /* UIKit.framework */; };
+		EDFA683813F3B36F00351009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFA683713F3B36F00351009 /* Foundation.framework */; };
+		EDFA683A13F3B36F00351009 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFA683913F3B36F00351009 /* CoreGraphics.framework */; };
+		EDFA684013F3B36F00351009 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDFA683E13F3B36F00351009 /* InfoPlist.strings */; };
+		EDFA684313F3B36F00351009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA684213F3B36F00351009 /* main.m */; };
+		EDFA684613F3B36F00351009 /* ContactsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA684513F3B36F00351009 /* ContactsAppDelegate.m */; };
+		EDFA684913F3B36F00351009 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDFA684713F3B36F00351009 /* MainWindow.xib */; };
+		EDFA684C13F3B36F00351009 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA684B13F3B36F00351009 /* ContactsViewController.m */; };
+		EDFA684F13F3B36F00351009 /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDFA684D13F3B36F00351009 /* ContactsViewController.xib */; };
+		EDFA685713F3B38900351009 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA685613F3B38900351009 /* Contact.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDFA683113F3B36F00351009 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFA683513F3B36F00351009 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDFA683713F3B36F00351009 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDFA683913F3B36F00351009 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDFA683D13F3B36F00351009 /* Contacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Contacts-Info.plist"; sourceTree = "<group>"; };
+		EDFA683F13F3B36F00351009 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDFA684113F3B36F00351009 /* Contacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Contacts-Prefix.pch"; sourceTree = "<group>"; };
+		EDFA684213F3B36F00351009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDFA684413F3B36F00351009 /* ContactsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsAppDelegate.h; sourceTree = "<group>"; };
+		EDFA684513F3B36F00351009 /* ContactsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsAppDelegate.m; sourceTree = "<group>"; };
+		EDFA684813F3B36F00351009 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EDFA684A13F3B36F00351009 /* ContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		EDFA684B13F3B36F00351009 /* ContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		EDFA684E13F3B36F00351009 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ContactsViewController.xib; sourceTree = "<group>"; };
+		EDFA685513F3B38900351009 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		EDFA685613F3B38900351009 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDFA682E13F3B36F00351009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFA683613F3B36F00351009 /* UIKit.framework in Frameworks */,
+				EDFA683813F3B36F00351009 /* Foundation.framework in Frameworks */,
+				EDFA683A13F3B36F00351009 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDFA682613F3B36F00351009 = {
+			isa = PBXGroup;
+			children = (
+				EDFA683B13F3B36F00351009 /* Contacts */,
+				EDFA683413F3B36F00351009 /* Frameworks */,
+				EDFA683213F3B36F00351009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDFA683213F3B36F00351009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDFA683113F3B36F00351009 /* Contacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDFA683413F3B36F00351009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDFA683513F3B36F00351009 /* UIKit.framework */,
+				EDFA683713F3B36F00351009 /* Foundation.framework */,
+				EDFA683913F3B36F00351009 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDFA683B13F3B36F00351009 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				EDFA684413F3B36F00351009 /* ContactsAppDelegate.h */,
+				EDFA684513F3B36F00351009 /* ContactsAppDelegate.m */,
+				EDFA684713F3B36F00351009 /* MainWindow.xib */,
+				EDFA684A13F3B36F00351009 /* ContactsViewController.h */,
+				EDFA684B13F3B36F00351009 /* ContactsViewController.m */,
+				EDFA684D13F3B36F00351009 /* ContactsViewController.xib */,
+				EDFA685513F3B38900351009 /* Contact.h */,
+				EDFA685613F3B38900351009 /* Contact.m */,
+				EDFA683C13F3B36F00351009 /* Supporting Files */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		EDFA683C13F3B36F00351009 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDFA683D13F3B36F00351009 /* Contacts-Info.plist */,
+				EDFA683E13F3B36F00351009 /* InfoPlist.strings */,
+				EDFA684113F3B36F00351009 /* Contacts-Prefix.pch */,
+				EDFA684213F3B36F00351009 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDFA683013F3B36F00351009 /* Contacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFA685213F3B36F00351009 /* Build configuration list for PBXNativeTarget "Contacts" */;
+			buildPhases = (
+				EDFA682D13F3B36F00351009 /* Sources */,
+				EDFA682E13F3B36F00351009 /* Frameworks */,
+				EDFA682F13F3B36F00351009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contacts;
+			productName = Contacts;
+			productReference = EDFA683113F3B36F00351009 /* Contacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDFA682813F3B36F00351009 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EDFA682B13F3B36F00351009 /* Build configuration list for PBXProject "Contacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDFA682613F3B36F00351009;
+			productRefGroup = EDFA683213F3B36F00351009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDFA683013F3B36F00351009 /* Contacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDFA682F13F3B36F00351009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFA684013F3B36F00351009 /* InfoPlist.strings in Resources */,
+				EDFA684913F3B36F00351009 /* MainWindow.xib in Resources */,
+				EDFA684F13F3B36F00351009 /* ContactsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDFA682D13F3B36F00351009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFA684313F3B36F00351009 /* main.m in Sources */,
+				EDFA684613F3B36F00351009 /* ContactsAppDelegate.m in Sources */,
+				EDFA684C13F3B36F00351009 /* ContactsViewController.m in Sources */,
+				EDFA685713F3B38900351009 /* Contact.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDFA683E13F3B36F00351009 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFA683F13F3B36F00351009 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDFA684713F3B36F00351009 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFA684813F3B36F00351009 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EDFA684D13F3B36F00351009 /* ContactsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFA684E13F3B36F00351009 /* en */,
+			);
+			name = ContactsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDFA685013F3B36F00351009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDFA685113F3B36F00351009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EDFA685313F3B36F00351009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Contacts/Contacts-Prefix.pch";
+				INFOPLIST_FILE = "Contacts/Contacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDFA685413F3B36F00351009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Contacts/Contacts-Prefix.pch";
+				INFOPLIST_FILE = "Contacts/Contacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDFA682B13F3B36F00351009 /* Build configuration list for PBXProject "Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFA685013F3B36F00351009 /* Debug */,
+				EDFA685113F3B36F00351009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFA685213F3B36F00351009 /* Build configuration list for PBXNativeTarget "Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFA685313F3B36F00351009 /* Debug */,
+				EDFA685413F3B36F00351009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDFA682813F3B36F00351009 /* Project object */;
+}
