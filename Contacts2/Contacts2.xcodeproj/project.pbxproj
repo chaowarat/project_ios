@@ -7,110 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F8CEF6F15AA8858005916D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8CEF6E15AA8858005916D4 /* UIKit.framework */; };
-		3F8CEF7115AA8858005916D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8CEF7015AA8858005916D4 /* Foundation.framework */; };
-		3F8CEF7315AA8858005916D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8CEF7215AA8858005916D4 /* CoreGraphics.framework */; };
-		3F8CEF7915AA8858005916D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F8CEF7715AA8858005916D4 /* InfoPlist.strings */; };
-		3F8CEF7B15AA8858005916D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CEF7A15AA8858005916D4 /* main.m */; };
-		3F8CEF7F15AA8858005916D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CEF7E15AA8858005916D4 /* AppDelegate.m */; };
-		3F8CEF8815AA8878005916D4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CEF8615AA8878005916D4 /* RootViewController.m */; };
-		3F8CEF8915AA8878005916D4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8CEF8715AA8878005916D4 /* RootViewController.xib */; };
-		3F8CEF9115AA8B55005916D4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CEF8F15AA8B55005916D4 /* DetailViewController.m */; };
-		3F8CEF9215AA8B55005916D4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8CEF9015AA8B55005916D4 /* DetailViewController.xib */; };
-		3F8CEF9A15AA8E03005916D4 /* KingNaresuanMonuMent.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8CEF9715AA8E03005916D4 /* KingNaresuanMonuMent.png */; };
-		3F8CEF9B15AA8E03005916D4 /* Library.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8CEF9815AA8E03005916D4 /* Library.png */; };
-		3F8CEF9C15AA8E03005916D4 /* TextileMuseum.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8CEF9915AA8E03005916D4 /* TextileMuseum.png */; };
+		3F8CF04315AA9A94005916D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8CF04215AA9A94005916D4 /* UIKit.framework */; };
+		3F8CF04515AA9A94005916D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8CF04415AA9A94005916D4 /* Foundation.framework */; };
+		3F8CF04715AA9A94005916D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8CF04615AA9A94005916D4 /* CoreGraphics.framework */; };
+		3F8CF04D15AA9A94005916D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F8CF04B15AA9A94005916D4 /* InfoPlist.strings */; };
+		3F8CF04F15AA9A94005916D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CF04E15AA9A94005916D4 /* main.m */; };
+		3F8CF05315AA9A94005916D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CF05215AA9A94005916D4 /* AppDelegate.m */; };
+		3F8CF06015AA9AFD005916D4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CF05F15AA9AFD005916D4 /* RootViewController.m */; };
+		3F8CF06315AA9B3D005916D4 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CF06215AA9B3D005916D4 /* Contact.m */; };
+		3F8CF06F15AA9BE3005916D4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CF06D15AA9BE3005916D4 /* DetailViewController.m */; };
+		3F8CF07015AA9BE3005916D4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8CF06E15AA9BE3005916D4 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F8CEF6A15AA8858005916D4 /* NUPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NUPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F8CEF6E15AA8858005916D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3F8CEF7015AA8858005916D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3F8CEF7215AA8858005916D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F8CEF7615AA8858005916D4 /* NUPhotos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NUPhotos-Info.plist"; sourceTree = "<group>"; };
-		3F8CEF7815AA8858005916D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3F8CEF7A15AA8858005916D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F8CEF7C15AA8858005916D4 /* NUPhotos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NUPhotos-Prefix.pch"; sourceTree = "<group>"; };
-		3F8CEF7D15AA8858005916D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3F8CEF7E15AA8858005916D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F8CEF8515AA8878005916D4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
-		3F8CEF8615AA8878005916D4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
-		3F8CEF8715AA8878005916D4 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = ../RootViewController.xib; sourceTree = "<group>"; };
-		3F8CEF8E15AA8B55005916D4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
-		3F8CEF8F15AA8B55005916D4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
-		3F8CEF9015AA8B55005916D4 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = ../DetailViewController.xib; sourceTree = "<group>"; };
-		3F8CEF9715AA8E03005916D4 /* KingNaresuanMonuMent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KingNaresuanMonuMent.png; sourceTree = "<group>"; };
-		3F8CEF9815AA8E03005916D4 /* Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Library.png; sourceTree = "<group>"; };
-		3F8CEF9915AA8E03005916D4 /* TextileMuseum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextileMuseum.png; sourceTree = "<group>"; };
+		3F8CF03E15AA9A94005916D4 /* Contacts2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8CF04215AA9A94005916D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F8CF04415AA9A94005916D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F8CF04615AA9A94005916D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F8CF04A15AA9A94005916D4 /* Contacts2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Contacts2-Info.plist"; sourceTree = "<group>"; };
+		3F8CF04C15AA9A94005916D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F8CF04E15AA9A94005916D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F8CF05015AA9A94005916D4 /* Contacts2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Contacts2-Prefix.pch"; sourceTree = "<group>"; };
+		3F8CF05115AA9A94005916D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F8CF05215AA9A94005916D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F8CF05E15AA9AFD005916D4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3F8CF05F15AA9AFD005916D4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3F8CF06115AA9B3D005916D4 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		3F8CF06215AA9B3D005916D4 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		3F8CF06C15AA9BE3005916D4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3F8CF06D15AA9BE3005916D4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3F8CF06E15AA9BE3005916D4 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F8CEF6715AA8858005916D4 /* Frameworks */ = {
+		3F8CF03B15AA9A94005916D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8CEF6F15AA8858005916D4 /* UIKit.framework in Frameworks */,
-				3F8CEF7115AA8858005916D4 /* Foundation.framework in Frameworks */,
-				3F8CEF7315AA8858005916D4 /* CoreGraphics.framework in Frameworks */,
+				3F8CF04315AA9A94005916D4 /* UIKit.framework in Frameworks */,
+				3F8CF04515AA9A94005916D4 /* Foundation.framework in Frameworks */,
+				3F8CF04715AA9A94005916D4 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F8CEF5F15AA8858005916D4 = {
+		3F8CF03315AA9A94005916D4 = {
 			isa = PBXGroup;
 			children = (
-				3F8CEF7415AA8858005916D4 /* NUPhotos */,
-				3F8CEF6D15AA8858005916D4 /* Frameworks */,
-				3F8CEF6B15AA8858005916D4 /* Products */,
+				3F8CF06C15AA9BE3005916D4 /* DetailViewController.h */,
+				3F8CF06D15AA9BE3005916D4 /* DetailViewController.m */,
+				3F8CF06E15AA9BE3005916D4 /* DetailViewController.xib */,
+				3F8CF06115AA9B3D005916D4 /* Contact.h */,
+				3F8CF06215AA9B3D005916D4 /* Contact.m */,
+				3F8CF05E15AA9AFD005916D4 /* RootViewController.h */,
+				3F8CF05F15AA9AFD005916D4 /* RootViewController.m */,
+				3F8CF04815AA9A94005916D4 /* Contacts2 */,
+				3F8CF04115AA9A94005916D4 /* Frameworks */,
+				3F8CF03F15AA9A94005916D4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F8CEF6B15AA8858005916D4 /* Products */ = {
+		3F8CF03F15AA9A94005916D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F8CEF6A15AA8858005916D4 /* NUPhotos.app */,
+				3F8CF03E15AA9A94005916D4 /* Contacts2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F8CEF6D15AA8858005916D4 /* Frameworks */ = {
+		3F8CF04115AA9A94005916D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3F8CEF6E15AA8858005916D4 /* UIKit.framework */,
-				3F8CEF7015AA8858005916D4 /* Foundation.framework */,
-				3F8CEF7215AA8858005916D4 /* CoreGraphics.framework */,
+				3F8CF04215AA9A94005916D4 /* UIKit.framework */,
+				3F8CF04415AA9A94005916D4 /* Foundation.framework */,
+				3F8CF04615AA9A94005916D4 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3F8CEF7415AA8858005916D4 /* NUPhotos */ = {
+		3F8CF04815AA9A94005916D4 /* Contacts2 */ = {
 			isa = PBXGroup;
 			children = (
-				3F8CEF9715AA8E03005916D4 /* KingNaresuanMonuMent.png */,
-				3F8CEF9815AA8E03005916D4 /* Library.png */,
-				3F8CEF9915AA8E03005916D4 /* TextileMuseum.png */,
-				3F8CEF8E15AA8B55005916D4 /* DetailViewController.h */,
-				3F8CEF8F15AA8B55005916D4 /* DetailViewController.m */,
-				3F8CEF9015AA8B55005916D4 /* DetailViewController.xib */,
-				3F8CEF8515AA8878005916D4 /* RootViewController.h */,
-				3F8CEF8615AA8878005916D4 /* RootViewController.m */,
-				3F8CEF8715AA8878005916D4 /* RootViewController.xib */,
-				3F8CEF7D15AA8858005916D4 /* AppDelegate.h */,
-				3F8CEF7E15AA8858005916D4 /* AppDelegate.m */,
-				3F8CEF7515AA8858005916D4 /* Supporting Files */,
+				3F8CF05115AA9A94005916D4 /* AppDelegate.h */,
+				3F8CF05215AA9A94005916D4 /* AppDelegate.m */,
+				3F8CF04915AA9A94005916D4 /* Supporting Files */,
 			);
-			path = NUPhotos;
+			path = Contacts2;
 			sourceTree = "<group>";
 		};
-		3F8CEF7515AA8858005916D4 /* Supporting Files */ = {
+		3F8CF04915AA9A94005916D4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F8CEF7615AA8858005916D4 /* NUPhotos-Info.plist */,
-				3F8CEF7715AA8858005916D4 /* InfoPlist.strings */,
-				3F8CEF7A15AA8858005916D4 /* main.m */,
-				3F8CEF7C15AA8858005916D4 /* NUPhotos-Prefix.pch */,
+				3F8CF04A15AA9A94005916D4 /* Contacts2-Info.plist */,
+				3F8CF04B15AA9A94005916D4 /* InfoPlist.strings */,
+				3F8CF04E15AA9A94005916D4 /* main.m */,
+				3F8CF05015AA9A94005916D4 /* Contacts2-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,83 +111,80 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F8CEF6915AA8858005916D4 /* NUPhotos */ = {
+		3F8CF03D15AA9A94005916D4 /* Contacts2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F8CEF8215AA8858005916D4 /* Build configuration list for PBXNativeTarget "NUPhotos" */;
+			buildConfigurationList = 3F8CF05615AA9A94005916D4 /* Build configuration list for PBXNativeTarget "Contacts2" */;
 			buildPhases = (
-				3F8CEF6615AA8858005916D4 /* Sources */,
-				3F8CEF6715AA8858005916D4 /* Frameworks */,
-				3F8CEF6815AA8858005916D4 /* Resources */,
+				3F8CF03A15AA9A94005916D4 /* Sources */,
+				3F8CF03B15AA9A94005916D4 /* Frameworks */,
+				3F8CF03C15AA9A94005916D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NUPhotos;
-			productName = NUPhotos;
-			productReference = 3F8CEF6A15AA8858005916D4 /* NUPhotos.app */;
+			name = Contacts2;
+			productName = Contacts2;
+			productReference = 3F8CF03E15AA9A94005916D4 /* Contacts2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F8CEF6115AA8858005916D4 /* Project object */ = {
+		3F8CF03515AA9A94005916D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 3F8CEF6415AA8858005916D4 /* Build configuration list for PBXProject "NUPhotos" */;
+			buildConfigurationList = 3F8CF03815AA9A94005916D4 /* Build configuration list for PBXProject "Contacts2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 3F8CEF5F15AA8858005916D4;
-			productRefGroup = 3F8CEF6B15AA8858005916D4 /* Products */;
+			mainGroup = 3F8CF03315AA9A94005916D4;
+			productRefGroup = 3F8CF03F15AA9A94005916D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F8CEF6915AA8858005916D4 /* NUPhotos */,
+				3F8CF03D15AA9A94005916D4 /* Contacts2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F8CEF6815AA8858005916D4 /* Resources */ = {
+		3F8CF03C15AA9A94005916D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8CEF7915AA8858005916D4 /* InfoPlist.strings in Resources */,
-				3F8CEF8915AA8878005916D4 /* RootViewController.xib in Resources */,
-				3F8CEF9215AA8B55005916D4 /* DetailViewController.xib in Resources */,
-				3F8CEF9A15AA8E03005916D4 /* KingNaresuanMonuMent.png in Resources */,
-				3F8CEF9B15AA8E03005916D4 /* Library.png in Resources */,
-				3F8CEF9C15AA8E03005916D4 /* TextileMuseum.png in Resources */,
+				3F8CF04D15AA9A94005916D4 /* InfoPlist.strings in Resources */,
+				3F8CF07015AA9BE3005916D4 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F8CEF6615AA8858005916D4 /* Sources */ = {
+		3F8CF03A15AA9A94005916D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8CEF7B15AA8858005916D4 /* main.m in Sources */,
-				3F8CEF7F15AA8858005916D4 /* AppDelegate.m in Sources */,
-				3F8CEF8815AA8878005916D4 /* RootViewController.m in Sources */,
-				3F8CEF9115AA8B55005916D4 /* DetailViewController.m in Sources */,
+				3F8CF04F15AA9A94005916D4 /* main.m in Sources */,
+				3F8CF05315AA9A94005916D4 /* AppDelegate.m in Sources */,
+				3F8CF06015AA9AFD005916D4 /* RootViewController.m in Sources */,
+				3F8CF06315AA9B3D005916D4 /* Contact.m in Sources */,
+				3F8CF06F15AA9BE3005916D4 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3F8CEF7715AA8858005916D4 /* InfoPlist.strings */ = {
+		3F8CF04B15AA9A94005916D4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F8CEF7815AA8858005916D4 /* en */,
+				3F8CF04C15AA9A94005916D4 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -202,7 +192,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3F8CEF8015AA8858005916D4 /* Debug */ = {
+		3F8CF05415AA9A94005916D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +216,7 @@
 			};
 			name = Debug;
 		};
-		3F8CEF8115AA8858005916D4 /* Release */ = {
+		3F8CF05515AA9A94005916D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,23 +235,23 @@
 			};
 			name = Release;
 		};
-		3F8CEF8315AA8858005916D4 /* Debug */ = {
+		3F8CF05715AA9A94005916D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NUPhotos/NUPhotos-Prefix.pch";
-				INFOPLIST_FILE = "NUPhotos/NUPhotos-Info.plist";
+				GCC_PREFIX_HEADER = "Contacts2/Contacts2-Prefix.pch";
+				INFOPLIST_FILE = "Contacts2/Contacts2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		3F8CEF8415AA8858005916D4 /* Release */ = {
+		3F8CF05815AA9A94005916D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NUPhotos/NUPhotos-Prefix.pch";
-				INFOPLIST_FILE = "NUPhotos/NUPhotos-Info.plist";
+				GCC_PREFIX_HEADER = "Contacts2/Contacts2-Prefix.pch";
+				INFOPLIST_FILE = "Contacts2/Contacts2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -270,24 +260,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F8CEF6415AA8858005916D4 /* Build configuration list for PBXProject "NUPhotos" */ = {
+		3F8CF03815AA9A94005916D4 /* Build configuration list for PBXProject "Contacts2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F8CEF8015AA8858005916D4 /* Debug */,
-				3F8CEF8115AA8858005916D4 /* Release */,
+				3F8CF05415AA9A94005916D4 /* Debug */,
+				3F8CF05515AA9A94005916D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F8CEF8215AA8858005916D4 /* Build configuration list for PBXNativeTarget "NUPhotos" */ = {
+		3F8CF05615AA9A94005916D4 /* Build configuration list for PBXNativeTarget "Contacts2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F8CEF8315AA8858005916D4 /* Debug */,
-				3F8CEF8415AA8858005916D4 /* Release */,
+				3F8CF05715AA9A94005916D4 /* Debug */,
+				3F8CF05815AA9A94005916D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F8CEF6115AA8858005916D4 /* Project object */;
+	rootObject = 3F8CF03515AA9A94005916D4 /* Project object */;
 }

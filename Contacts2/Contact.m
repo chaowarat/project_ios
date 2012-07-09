@@ -8,6 +8,9 @@
 
 #import "Contact.h"
 
+
 @implementation Contact
+
+@synthesize firstName, lastName, phone, email;
 
 @end

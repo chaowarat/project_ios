@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITableViewController
+@interface RootViewController : UITableViewController{
+    NSArray *contacts;
+}
 
 @end
