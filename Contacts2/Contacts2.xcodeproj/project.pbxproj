@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F821ABA15B3D67A00176203 /* Rebecca.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AB815B3D67A00176203 /* Rebecca.png */; };
+		3F821ABB15B3D67A00176203 /* Steve.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AB915B3D67A00176203 /* Steve.png */; };
 		3F8CF04315AA9A94005916D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8CF04215AA9A94005916D4 /* UIKit.framework */; };
 		3F8CF04515AA9A94005916D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8CF04415AA9A94005916D4 /* Foundation.framework */; };
 		3F8CF04715AA9A94005916D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8CF04615AA9A94005916D4 /* CoreGraphics.framework */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F821AB815B3D67A00176203 /* Rebecca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rebecca.png; sourceTree = "<group>"; };
+		3F821AB915B3D67A00176203 /* Steve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Steve.png; sourceTree = "<group>"; };
 		3F8CF03E15AA9A94005916D4 /* Contacts2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8CF04215AA9A94005916D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F8CF04415AA9A94005916D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,9 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F821AB615B3D65F00176203 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3F821AB815B3D67A00176203 /* Rebecca.png */,
+				3F821AB915B3D67A00176203 /* Steve.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		3F8CF03315AA9A94005916D4 = {
 			isa = PBXGroup;
 			children = (
+				3F821AB615B3D65F00176203 /* images */,
 				3F8CF06C15AA9BE3005916D4 /* DetailViewController.h */,
 				3F8CF06D15AA9BE3005916D4 /* DetailViewController.m */,
 				3F8CF06E15AA9BE3005916D4 /* DetailViewController.xib */,
@@ -160,6 +174,8 @@
 			files = (
 				3F8CF04D15AA9A94005916D4 /* InfoPlist.strings in Resources */,
 				3F8CF07015AA9BE3005916D4 /* DetailViewController.xib in Resources */,
+				3F821ABA15B3D67A00176203 /* Rebecca.png in Resources */,
+				3F821ABB15B3D67A00176203 /* Steve.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +292,7 @@
 				3F8CF05815AA9A94005916D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

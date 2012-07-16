@@ -13,7 +13,22 @@
 @end
 
 @implementation DetailViewController
-@synthesize label;
+@synthesize contact, label, imageView, labelEmail;
+//@synthesize label;
+
+-(void)configureView{
+    if(contact != nil){
+        self.label.text = contact.firstName;
+        self.labelEmail.text = contact.email;
+        self.imageView.image = [UIImage imageNamed:contact.firstName];
+    }
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    [self configureView];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

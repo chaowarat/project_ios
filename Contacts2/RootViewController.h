@@ -10,6 +10,8 @@
 
 @interface RootViewController : UITableViewController{
     NSArray *contacts;
+    NSArray *contactFriends;
+    NSArray *contactOther;
 }
 
 @end

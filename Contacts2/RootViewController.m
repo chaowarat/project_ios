@@ -38,40 +38,40 @@
     contact1.lastName = @"Harfield";
     contact1.phone = @"07743795826";
     contact1.email = @"antonyh@nu.ac.th";
-    [mutArr addObject:contact1];
-    [contact1 release];
+    //[mutArr addObject:contact1];
+    //[contact1 release];
     
     Contact *contact2 = [[Contact alloc] init];
     contact2.firstName = @"Bjoern";
     contact2.lastName = @"Wilhelm";
     contact2.phone = @"08739750938";
     contact2.email = @"bjoern@nu.ac.th";
-    [mutArr addObject:contact2];
-    [contact2 release];
+    //[mutArr addObject:contact2];
+    //[contact2 release];
     
     Contact *contact3 = [[Contact alloc] init];
     contact3.firstName = @"James";
     contact3.lastName = @"Nally";
     contact3.phone = @"07500831123";
     contact3.email = @"nally@gmail.com";
-    [mutArr addObject:contact3];
-    [contact3 release];
+    //[mutArr addObject:contact3];
+    //[contact3 release];
     
     Contact *contact4 = [[Contact alloc] init];
     contact4.firstName = @"Michael";
     contact4.lastName = @"Kolkman";
     contact4.phone = @"0793904123";
     contact4.email = @"kolk@kolkman.de";
-    [mutArr addObject:contact4];
-    [contact4 release];
+    //[mutArr addObject:contact4];
+    //[contact4 release];
     
     Contact *contact5 = [[Contact alloc] init];
     contact5.firstName = @"Steve";
     contact5.lastName = @"Russ";
     contact5.phone = @"07948275639";
     contact5.email = @"steve.russ@warwick.ac.uk";
-    [mutArr addObject:contact5];
-    [contact5 release];
+    //[mutArr addObject:contact5];
+    //[contact5 release];
     
     Contact *contact6 = [[Contact alloc] init];
     contact6.firstName = @"Rebecca";
@@ -98,6 +98,30 @@
     [contact8 release];
     
     contacts = mutArr;
+    
+    NSMutableArray *mutArrFriends = [[NSMutableArray alloc] initWithCapacity:3];
+    
+    [mutArrFriends addObject:contact1];
+    [contact1 release];
+    
+    [mutArrFriends addObject:contact2];
+    [contact2 release];
+    
+    [mutArrFriends addObject:contact3];
+    [contact3 release];
+    
+    contactFriends = mutArrFriends;
+    
+    NSMutableArray *mutArrOther = [[NSMutableArray alloc] initWithCapacity:2];
+    
+    [mutArrOther addObject:contact4];
+    [contact4 release];
+    
+    [mutArrOther addObject:contact5];
+    [contact5 release];
+
+    contactOther = mutArrOther;
+
 }
 
 - (void)viewDidUnload
@@ -116,12 +140,31 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [contacts count];
+    //return [contacts count] + [contactFriends count] + [contactOther count];
+    if(section == 0){
+        return [contacts count];
+    }
+    else if(section == 1){
+        return [contactFriends count];
+    }
+    else {
+        return [contactOther count];
+    }
+}
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+    if(section == 0){
+        return @"family";
+    }
+    if(section == 1){
+        return @"Friends";
+    }
+    return @"Other";
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -130,13 +173,23 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if(cell == nil){
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
+
+    Contact *contact;
     
-    //cell.textLabel.text = [NSString stringWithFormat:@"Item %d", indexPath.row];
-    Contact *contact = [contacts objectAtIndex:indexPath.row];
-    NSString *item = [NSString stringWithFormat:@"%@ %@", contact.firstName, contact.lastName];
-    cell.textLabel.text = item;
+    if (indexPath.section == 0) {
+        contact = [contacts objectAtIndex:indexPath.row];
+    }
+    else if (indexPath.section == 1) {
+        contact = [contactFriends objectAtIndex:indexPath.row];
+    }
+    else {
+        contact = [contactOther objectAtIndex:indexPath.row];
+    }
+    cell.textLabel.text = [NSString stringWithFormat:@"%@ %@", contact.firstName, contact.lastName];
+    cell.detailTextLabel.text = contact.email;
     
     return cell;
 }
@@ -184,16 +237,21 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    Contact *contact = [contacts objectAtIndex:indexPath.row];
-    NSString *name = [NSString stringWithFormat:@"%@ %@", contact.firstName, contact.lastName];
-    NSString *phoneAndEmail = [NSString stringWithFormat:@"%@\nPhone: %@\nEmail: %@", name, contact.phone, contact.email];
+    Contact *contact;
+    DetailViewController *detailViewController = [[DetailViewController alloc] init];
     
-    DetailViewController *detailViewController = [[[DetailViewController alloc] initWithNibName:nil bundle:nil] autorelease];
-    
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    
-    detailViewController.label.text = phoneAndEmail;
-    
+    if (indexPath.section == 0) {
+        contact = [contacts objectAtIndex:indexPath.row];
+    }
+    else if (indexPath.section == 1) {
+        contact = [contactFriends objectAtIndex:indexPath.row];
+    }
+    else {
+        contact = [contactOther objectAtIndex:indexPath.row];
+    }
+    detailViewController.contact = contact;
+
+    [self.navigationController pushViewController:detailViewController animated:YES]; 
 
 }
 

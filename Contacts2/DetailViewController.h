@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Contact.h"
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController{
+    Contact *contact;
+    UILabel *label;
+    UILabel *labelEmail;
+    UIImageView *imageView;
+}
 
+@property (nonatomic, retain) Contact *contact;
 @property (nonatomic, retain) IBOutlet UILabel *label;
+@property (nonatomic, retain) IBOutlet UILabel *labelEmail;
+@property (nonatomic, retain) IBOutlet UIImageView *imageView;
 
 @end

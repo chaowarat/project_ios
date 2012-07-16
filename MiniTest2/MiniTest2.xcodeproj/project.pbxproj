@@ -50,7 +50,7 @@
 		ED92509715989E1B00921A63 = {
 			isa = PBXGroup;
 			children = (
-				ED9250AC15989E1B00921A63 /* MiniTest1 */,
+				ED9250AC15989E1B00921A63 /* MiniTest2 */,
 				ED9250A515989E1B00921A63 /* Frameworks */,
 				ED9250A315989E1B00921A63 /* Products */,
 			);
@@ -74,7 +74,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ED9250AC15989E1B00921A63 /* MiniTest1 */ = {
+		ED9250AC15989E1B00921A63 /* MiniTest2 */ = {
 			isa = PBXGroup;
 			children = (
 				ED9250B515989E1B00921A63 /* AppDelegate.h */,
@@ -84,6 +84,7 @@
 				ED9250C315989FC500921A63 /* ViewController.xib */,
 				ED9250AD15989E1B00921A63 /* Supporting Files */,
 			);
+			name = MiniTest2;
 			path = MiniTest1;
 			sourceTree = "<group>";
 		};
