@@ -13,7 +13,7 @@
 @end
 
 @implementation DetailViewController
-@synthesize contact, label, imageView, labelEmail;
+@synthesize contact, label, imageView, labelEmail, input;
 //@synthesize label;
 
 -(void)configureView{
@@ -22,6 +22,12 @@
         self.labelEmail.text = contact.email;
         self.imageView.image = [UIImage imageNamed:contact.firstName];
     }
+}
+
+-(IBAction)editName:(id)sender{
+    contact.firstName = input.text;
+    label.text = contact.firstName;
+    input.text = nil;
 }
 
 -(void)viewWillAppear:(BOOL)animated{

@@ -14,10 +14,14 @@
     UILabel *label;
     UILabel *labelEmail;
     UIImageView *imageView;
+    UITextField *input;
 }
+
+-(IBAction)editName:(id)sender;
 
 @property (nonatomic, retain) Contact *contact;
 @property (nonatomic, retain) IBOutlet UILabel *label;
+@property (nonatomic, retain) IBOutlet UITextField *input;
 @property (nonatomic, retain) IBOutlet UILabel *labelEmail;
 @property (nonatomic, retain) IBOutlet UIImageView *imageView;
 

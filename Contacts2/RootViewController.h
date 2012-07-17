@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Contact.h"
 
 @interface RootViewController : UITableViewController{
     NSArray *contacts;
