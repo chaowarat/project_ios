@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FE6C1DB15BD073600D3A0D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE6C1DA15BD073600D3A0D2 /* UIKit.framework */; };
+		3FE6C1DD15BD073600D3A0D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE6C1DC15BD073600D3A0D2 /* Foundation.framework */; };
+		3FE6C1DF15BD073600D3A0D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE6C1DE15BD073600D3A0D2 /* CoreGraphics.framework */; };
+		3FE6C1E515BD073600D3A0D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6C1E315BD073600D3A0D2 /* InfoPlist.strings */; };
+		3FE6C1E715BD073600D3A0D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6C1E615BD073600D3A0D2 /* main.m */; };
+		3FE6C1EB15BD073600D3A0D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6C1EA15BD073600D3A0D2 /* AppDelegate.m */; };
+		3FE6C1F815BD07E900D3A0D2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6C1F615BD07E900D3A0D2 /* RootViewController.m */; };
+		3FE6C1F915BD07E900D3A0D2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6C1F715BD07E900D3A0D2 /* RootViewController.xib */; };
+		3FE6C1FC15BD08F300D3A0D2 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6C1FB15BD08F300D3A0D2 /* Car.m */; };
+		3FE6C20315BD0A9900D3A0D2 /* CarData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6C20215BD0A9900D3A0D2 /* CarData.m */; };
+		3FE6C20715BD10D900D3A0D2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6C20515BD10D900D3A0D2 /* DetailViewController.m */; };
+		3FE6C20815BD10D900D3A0D2 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6C20615BD10D900D3A0D2 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FE6C1D615BD073600D3A0D2 /* CarPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE6C1DA15BD073600D3A0D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FE6C1DC15BD073600D3A0D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FE6C1DE15BD073600D3A0D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FE6C1E215BD073600D3A0D2 /* CarPrice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarPrice-Info.plist"; sourceTree = "<group>"; };
+		3FE6C1E415BD073600D3A0D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FE6C1E615BD073600D3A0D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FE6C1E815BD073600D3A0D2 /* CarPrice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarPrice-Prefix.pch"; sourceTree = "<group>"; };
+		3FE6C1E915BD073600D3A0D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FE6C1EA15BD073600D3A0D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FE6C1F515BD07E900D3A0D2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3FE6C1F615BD07E900D3A0D2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3FE6C1F715BD07E900D3A0D2 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		3FE6C1FA15BD08F300D3A0D2 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		3FE6C1FB15BD08F300D3A0D2 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		3FE6C20115BD0A9900D3A0D2 /* CarData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarData.h; sourceTree = "<group>"; };
+		3FE6C20215BD0A9900D3A0D2 /* CarData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarData.m; sourceTree = "<group>"; };
+		3FE6C20415BD10D900D3A0D2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3FE6C20515BD10D900D3A0D2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3FE6C20615BD10D900D3A0D2 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE6C1D315BD073600D3A0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE6C1DB15BD073600D3A0D2 /* UIKit.framework in Frameworks */,
+				3FE6C1DD15BD073600D3A0D2 /* Foundation.framework in Frameworks */,
+				3FE6C1DF15BD073600D3A0D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FE6C1CB15BD073600D3A0D2 = {
+			isa = PBXGroup;
+			children = (
+				3FE6C20415BD10D900D3A0D2 /* DetailViewController.h */,
+				3FE6C20515BD10D900D3A0D2 /* DetailViewController.m */,
+				3FE6C20615BD10D900D3A0D2 /* DetailViewController.xib */,
+				3FE6C20115BD0A9900D3A0D2 /* CarData.h */,
+				3FE6C20215BD0A9900D3A0D2 /* CarData.m */,
+				3FE6C1FA15BD08F300D3A0D2 /* Car.h */,
+				3FE6C1FB15BD08F300D3A0D2 /* Car.m */,
+				3FE6C1F515BD07E900D3A0D2 /* RootViewController.h */,
+				3FE6C1F615BD07E900D3A0D2 /* RootViewController.m */,
+				3FE6C1F715BD07E900D3A0D2 /* RootViewController.xib */,
+				3FE6C1E015BD073600D3A0D2 /* CarPrice */,
+				3FE6C1D915BD073600D3A0D2 /* Frameworks */,
+				3FE6C1D715BD073600D3A0D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FE6C1D715BD073600D3A0D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6C1D615BD073600D3A0D2 /* CarPrice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE6C1D915BD073600D3A0D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6C1DA15BD073600D3A0D2 /* UIKit.framework */,
+				3FE6C1DC15BD073600D3A0D2 /* Foundation.framework */,
+				3FE6C1DE15BD073600D3A0D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FE6C1E015BD073600D3A0D2 /* CarPrice */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6C1E915BD073600D3A0D2 /* AppDelegate.h */,
+				3FE6C1EA15BD073600D3A0D2 /* AppDelegate.m */,
+				3FE6C1E115BD073600D3A0D2 /* Supporting Files */,
+			);
+			path = CarPrice;
+			sourceTree = "<group>";
+		};
+		3FE6C1E115BD073600D3A0D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6C1E215BD073600D3A0D2 /* CarPrice-Info.plist */,
+				3FE6C1E315BD073600D3A0D2 /* InfoPlist.strings */,
+				3FE6C1E615BD073600D3A0D2 /* main.m */,
+				3FE6C1E815BD073600D3A0D2 /* CarPrice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FE6C1D515BD073600D3A0D2 /* CarPrice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE6C1EE15BD073600D3A0D2 /* Build configuration list for PBXNativeTarget "CarPrice" */;
+			buildPhases = (
+				3FE6C1D215BD073600D3A0D2 /* Sources */,
+				3FE6C1D315BD073600D3A0D2 /* Frameworks */,
+				3FE6C1D415BD073600D3A0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarPrice;
+			productName = CarPrice;
+			productReference = 3FE6C1D615BD073600D3A0D2 /* CarPrice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FE6C1CD15BD073600D3A0D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3FE6C1D015BD073600D3A0D2 /* Build configuration list for PBXProject "CarPrice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3FE6C1CB15BD073600D3A0D2;
+			productRefGroup = 3FE6C1D715BD073600D3A0D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FE6C1D515BD073600D3A0D2 /* CarPrice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FE6C1D415BD073600D3A0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE6C1E515BD073600D3A0D2 /* InfoPlist.strings in Resources */,
+				3FE6C1F915BD07E900D3A0D2 /* RootViewController.xib in Resources */,
+				3FE6C20815BD10D900D3A0D2 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FE6C1D215BD073600D3A0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE6C1E715BD073600D3A0D2 /* main.m in Sources */,
+				3FE6C1EB15BD073600D3A0D2 /* AppDelegate.m in Sources */,
+				3FE6C1F815BD07E900D3A0D2 /* RootViewController.m in Sources */,
+				3FE6C1FC15BD08F300D3A0D2 /* Car.m in Sources */,
+				3FE6C20315BD0A9900D3A0D2 /* CarData.m in Sources */,
+				3FE6C20715BD10D900D3A0D2 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FE6C1E315BD073600D3A0D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FE6C1E415BD073600D3A0D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FE6C1EC15BD073600D3A0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FE6C1ED15BD073600D3A0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FE6C1EF15BD073600D3A0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarPrice/CarPrice-Prefix.pch";
+				INFOPLIST_FILE = "CarPrice/CarPrice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FE6C1F015BD073600D3A0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarPrice/CarPrice-Prefix.pch";
+				INFOPLIST_FILE = "CarPrice/CarPrice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE6C1D015BD073600D3A0D2 /* Build configuration list for PBXProject "CarPrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE6C1EC15BD073600D3A0D2 /* Debug */,
+				3FE6C1ED15BD073600D3A0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE6C1EE15BD073600D3A0D2 /* Build configuration list for PBXNativeTarget "CarPrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE6C1EF15BD073600D3A0D2 /* Debug */,
+				3FE6C1F015BD073600D3A0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FE6C1CD15BD073600D3A0D2 /* Project object */;
+}
