@@ -9,6 +9,6 @@
 #import "Car.h"
 
 @implementation Car
-@synthesize name, price, option;
+@synthesize price, option, manufacture, model, year, available;
 
 @end

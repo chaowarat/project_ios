@@ -19,6 +19,8 @@
 		3FE6C20315BD0A9900D3A0D2 /* CarData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6C20215BD0A9900D3A0D2 /* CarData.m */; };
 		3FE6C20715BD10D900D3A0D2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6C20515BD10D900D3A0D2 /* DetailViewController.m */; };
 		3FE6C20815BD10D900D3A0D2 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6C20615BD10D900D3A0D2 /* DetailViewController.xib */; };
+		85176D7E15BD5BF400E4C1B1 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85176D7C15BD5BF400E4C1B1 /* PhotoViewController.m */; };
+		85176D7F15BD5BF400E4C1B1 /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85176D7D15BD5BF400E4C1B1 /* PhotoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		3FE6C20415BD10D900D3A0D2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		3FE6C20515BD10D900D3A0D2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		3FE6C20615BD10D900D3A0D2 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		85176D7B15BD5BF400E4C1B1 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		85176D7C15BD5BF400E4C1B1 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		85176D7D15BD5BF400E4C1B1 /* PhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,9 @@
 		3FE6C1CB15BD073600D3A0D2 = {
 			isa = PBXGroup;
 			children = (
+				85176D7B15BD5BF400E4C1B1 /* PhotoViewController.h */,
+				85176D7C15BD5BF400E4C1B1 /* PhotoViewController.m */,
+				85176D7D15BD5BF400E4C1B1 /* PhotoViewController.xib */,
 				3FE6C20415BD10D900D3A0D2 /* DetailViewController.h */,
 				3FE6C20515BD10D900D3A0D2 /* DetailViewController.m */,
 				3FE6C20615BD10D900D3A0D2 /* DetailViewController.xib */,
@@ -169,6 +177,7 @@
 				3FE6C1E515BD073600D3A0D2 /* InfoPlist.strings in Resources */,
 				3FE6C1F915BD07E900D3A0D2 /* RootViewController.xib in Resources */,
 				3FE6C20815BD10D900D3A0D2 /* DetailViewController.xib in Resources */,
+				85176D7F15BD5BF400E4C1B1 /* PhotoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +194,7 @@
 				3FE6C1FC15BD08F300D3A0D2 /* Car.m in Sources */,
 				3FE6C20315BD0A9900D3A0D2 /* CarData.m in Sources */,
 				3FE6C20715BD10D900D3A0D2 /* DetailViewController.m in Sources */,
+				85176D7E15BD5BF400E4C1B1 /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +296,7 @@
 				3FE6C1F015BD073600D3A0D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

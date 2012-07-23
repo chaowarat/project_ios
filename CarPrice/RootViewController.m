@@ -33,7 +33,6 @@
     listBigPrice = [CarData bigPrice];
 
     self.navigationItem.title = @"Car Price Comparison";
-    
 }
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
@@ -82,6 +81,11 @@
     if(cell == nil){
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
+    UILabel* labelOption = [[UILabel alloc] initWithFrame:CGRectMake(200, 0, 100, 40)];
+    labelOption.textColor = [UIColor blackColor];
+    labelOption.backgroundColor = [UIColor clearColor];
+    labelOption.textAlignment = UITextAlignmentCenter;
+    labelOption.font = [UIFont fontWithName:@"Chalkboard SE" size:20];
     
     Car *car = [[Car alloc] init];
     if (indexPath.section == 0) {
@@ -90,8 +94,11 @@
     else{
         car = [listBigPrice objectAtIndex:indexPath.row];
     }
-    
-    cell.textLabel.text = car.name;
+    labelOption.text = car.option;
+    [cell addSubview:labelOption];
+    cell.textLabel.font = [UIFont fontWithName:@"Chalkboard SE" size:20];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@ %@", car.manufacture, car.model];
+
     
     return cell;
 }
@@ -139,14 +146,20 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-
-    DetailViewController *detailViewController = [[DetailViewController alloc] init];
+    Car *car = [[Car alloc] init];
     if (indexPath.section == 0) {
-        //contact = [contacts objectAtIndex:indexPath.row];
+        car = [listSmallPrice objectAtIndex:indexPath.row];
     }
-    else {
-        //contact = [contactFriends objectAtIndex:indexPath.row];
+    else{
+        car = [listBigPrice objectAtIndex:indexPath.row];
     }
+    
+    DetailViewController *detailViewController = [[DetailViewController alloc] init];
+    detailViewController.car = car;
+
+    self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
+    
+    detailViewController.navigationItem.title = [NSString stringWithFormat:@"%@ %@", car.manufacture, car.model];
     
     [self.navigationController pushViewController:detailViewController animated:YES]; 
 

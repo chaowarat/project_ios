@@ -9,13 +9,20 @@
 #import <Foundation/Foundation.h>
 
 @interface Car : NSObject {
-    NSString *name;
+    NSString *manufacture;
+    NSString *model;
+    NSString *year;
     NSString *price;
-    NSString *option;
+    NSString *available;
+    NSString *option;  // **new**
+    
 }
 
-@property (nonatomic, retain) NSString *name;
+@property (nonatomic, retain) NSString *manufacture;
+@property (nonatomic, retain) NSString *model;
+@property (nonatomic, retain) NSString *year;
 @property (nonatomic, retain) NSString *price;
+@property (nonatomic, retain) NSString *available;
 @property (nonatomic, retain) NSString *option;
 
 @end

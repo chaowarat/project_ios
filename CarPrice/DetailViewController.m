@@ -7,13 +7,15 @@
 //
 
 #import "DetailViewController.h"
+#import "PhotoViewController.h"
 
 @interface DetailViewController ()
 
 @end
 
 @implementation DetailViewController
-@synthesize car;
+@synthesize car, labelManufacture, labelModel, labelYear;
+@synthesize segment, labelPrice, labelAvailable;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -24,10 +26,29 @@
     return self;
 }
 
+- (void) viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    segment.selectedSegmentIndex = 0;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.navigationItem.title = car.name;
+    labelManufacture.text = car.manufacture;
+    labelModel.text = car.model;
+    labelYear.text = car.year;
+    labelPrice.text = car.price;
+    labelAvailable.text = car.available;
+}
+
+- (IBAction)touchButton:(id)sender{
+    if (segment.selectedSegmentIndex != 0) {
+        PhotoViewController *photoViewController = [[PhotoViewController alloc] init];
+        photoViewController.navigationItem.title = self.navigationItem.title;
+        self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
+        
+        [self.navigationController pushViewController:photoViewController animated:YES];
+    }
 }
 
 - (void)viewDidUnload
