@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FE0F05F15BE4118003C21D6 /* BMW M3 2013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0F05315BE4118003C21D6 /* BMW M3 2013.jpg */; };
+		3FE0F06015BE4118003C21D6 /* Honda Brio S MT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0F05415BE4118003C21D6 /* Honda Brio S MT.jpg */; };
+		3FE0F06115BE4118003C21D6 /* Nissan 1.2 VL CVT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0F05515BE4118003C21D6 /* Nissan 1.2 VL CVT.jpg */; };
+		3FE0F06215BE4118003C21D6 /* Nissan Almera 1.2 S MT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0F05615BE4118003C21D6 /* Nissan Almera 1.2 S MT.jpg */; };
+		3FE0F06315BE4118003C21D6 /* Honda Brio V MT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0F05715BE4118003C21D6 /* Honda Brio V MT.jpg */; };
+		3FE0F06415BE4118003C21D6 /* Suzuki Swift GA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0F05815BE4118003C21D6 /* Suzuki Swift GA.jpg */; };
+		3FE0F06515BE4118003C21D6 /* Toyota Prius C.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0F05915BE4118003C21D6 /* Toyota Prius C.jpg */; };
+		3FE0F06615BE4118003C21D6 /* Toyota Vigo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0F05A15BE4118003C21D6 /* Toyota Vigo.jpg */; };
+		3FE0F06715BE4118003C21D6 /* Toyota Vios 1.5 L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0F05B15BE4118003C21D6 /* Toyota Vios 1.5 L.jpg */; };
+		3FE0F06815BE4118003C21D6 /* BMW M3 2011.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0F05C15BE4118003C21D6 /* BMW M3 2011.jpg */; };
+		3FE0F06915BE4118003C21D6 /* Honda Jazz S MT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0F05D15BE4118003C21D6 /* Honda Jazz S MT.jpg */; };
+		3FE0F06A15BE4118003C21D6 /* Toyota Camry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0F05E15BE4118003C21D6 /* Toyota Camry.jpg */; };
 		3FE6C1DB15BD073600D3A0D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE6C1DA15BD073600D3A0D2 /* UIKit.framework */; };
 		3FE6C1DD15BD073600D3A0D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE6C1DC15BD073600D3A0D2 /* Foundation.framework */; };
 		3FE6C1DF15BD073600D3A0D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE6C1DE15BD073600D3A0D2 /* CoreGraphics.framework */; };
@@ -24,6 +36,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FE0F05315BE4118003C21D6 /* BMW M3 2013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW M3 2013.jpg"; sourceTree = "<group>"; };
+		3FE0F05415BE4118003C21D6 /* Honda Brio S MT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Honda Brio S MT.jpg"; sourceTree = "<group>"; };
+		3FE0F05515BE4118003C21D6 /* Nissan 1.2 VL CVT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan 1.2 VL CVT.jpg"; sourceTree = "<group>"; };
+		3FE0F05615BE4118003C21D6 /* Nissan Almera 1.2 S MT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nissan Almera 1.2 S MT.jpg"; sourceTree = "<group>"; };
+		3FE0F05715BE4118003C21D6 /* Honda Brio V MT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Honda Brio V MT.jpg"; sourceTree = "<group>"; };
+		3FE0F05815BE4118003C21D6 /* Suzuki Swift GA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Suzuki Swift GA.jpg"; sourceTree = "<group>"; };
+		3FE0F05915BE4118003C21D6 /* Toyota Prius C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Toyota Prius C.jpg"; sourceTree = "<group>"; };
+		3FE0F05A15BE4118003C21D6 /* Toyota Vigo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Toyota Vigo.jpg"; sourceTree = "<group>"; };
+		3FE0F05B15BE4118003C21D6 /* Toyota Vios 1.5 L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Toyota Vios 1.5 L.jpg"; sourceTree = "<group>"; };
+		3FE0F05C15BE4118003C21D6 /* BMW M3 2011.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BMW M3 2011.jpg"; sourceTree = "<group>"; };
+		3FE0F05D15BE4118003C21D6 /* Honda Jazz S MT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Honda Jazz S MT.jpg"; sourceTree = "<group>"; };
+		3FE0F05E15BE4118003C21D6 /* Toyota Camry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Toyota Camry.jpg"; sourceTree = "<group>"; };
 		3FE6C1D615BD073600D3A0D2 /* CarPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE6C1DA15BD073600D3A0D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3FE6C1DC15BD073600D3A0D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,9 +87,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FE0F05115BE4100003C21D6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3FE0F05315BE4118003C21D6 /* BMW M3 2013.jpg */,
+				3FE0F05415BE4118003C21D6 /* Honda Brio S MT.jpg */,
+				3FE0F05515BE4118003C21D6 /* Nissan 1.2 VL CVT.jpg */,
+				3FE0F05615BE4118003C21D6 /* Nissan Almera 1.2 S MT.jpg */,
+				3FE0F05715BE4118003C21D6 /* Honda Brio V MT.jpg */,
+				3FE0F05815BE4118003C21D6 /* Suzuki Swift GA.jpg */,
+				3FE0F05915BE4118003C21D6 /* Toyota Prius C.jpg */,
+				3FE0F05A15BE4118003C21D6 /* Toyota Vigo.jpg */,
+				3FE0F05B15BE4118003C21D6 /* Toyota Vios 1.5 L.jpg */,
+				3FE0F05C15BE4118003C21D6 /* BMW M3 2011.jpg */,
+				3FE0F05D15BE4118003C21D6 /* Honda Jazz S MT.jpg */,
+				3FE0F05E15BE4118003C21D6 /* Toyota Camry.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		3FE6C1CB15BD073600D3A0D2 = {
 			isa = PBXGroup;
 			children = (
+				3FE0F05115BE4100003C21D6 /* images */,
 				85176D7B15BD5BF400E4C1B1 /* PhotoViewController.h */,
 				85176D7C15BD5BF400E4C1B1 /* PhotoViewController.m */,
 				85176D7D15BD5BF400E4C1B1 /* PhotoViewController.xib */,
@@ -178,6 +222,18 @@
 				3FE6C1F915BD07E900D3A0D2 /* RootViewController.xib in Resources */,
 				3FE6C20815BD10D900D3A0D2 /* DetailViewController.xib in Resources */,
 				85176D7F15BD5BF400E4C1B1 /* PhotoViewController.xib in Resources */,
+				3FE0F05F15BE4118003C21D6 /* BMW M3 2013.jpg in Resources */,
+				3FE0F06015BE4118003C21D6 /* Honda Brio S MT.jpg in Resources */,
+				3FE0F06115BE4118003C21D6 /* Nissan 1.2 VL CVT.jpg in Resources */,
+				3FE0F06215BE4118003C21D6 /* Nissan Almera 1.2 S MT.jpg in Resources */,
+				3FE0F06315BE4118003C21D6 /* Honda Brio V MT.jpg in Resources */,
+				3FE0F06415BE4118003C21D6 /* Suzuki Swift GA.jpg in Resources */,
+				3FE0F06515BE4118003C21D6 /* Toyota Prius C.jpg in Resources */,
+				3FE0F06615BE4118003C21D6 /* Toyota Vigo.jpg in Resources */,
+				3FE0F06715BE4118003C21D6 /* Toyota Vios 1.5 L.jpg in Resources */,
+				3FE0F06815BE4118003C21D6 /* BMW M3 2011.jpg in Resources */,
+				3FE0F06915BE4118003C21D6 /* Honda Jazz S MT.jpg in Resources */,
+				3FE0F06A15BE4118003C21D6 /* Toyota Camry.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
