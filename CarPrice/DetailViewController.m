@@ -45,6 +45,7 @@
     if (segment.selectedSegmentIndex != 0) {
         PhotoViewController *photoViewController = [[PhotoViewController alloc] init];
         photoViewController.navigationItem.title = self.navigationItem.title;
+        photoViewController.car = self.car;
         self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
         
         [self.navigationController pushViewController:photoViewController animated:YES];

@@ -9,6 +9,7 @@
 #import "PhotoViewController.h"
 
 @implementation PhotoViewController
+@synthesize segment, car, imageView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -17,6 +18,20 @@
         // Custom initialization
     }
     return self;
+}
+
+- (IBAction)touchButton:(id)sender{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    NSString *imageName = [NSString stringWithFormat:@"%@ %@.jpg", car.manufacture, car.model];
+    if(car != nil){
+        self.imageView.image = [UIImage imageNamed:imageName];
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning

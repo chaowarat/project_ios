@@ -81,11 +81,11 @@
     if(cell == nil){
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-    UILabel* labelOption = [[UILabel alloc] initWithFrame:CGRectMake(200, 0, 100, 40)];
+    UILabel* labelOption = [[UILabel alloc] initWithFrame:CGRectMake(240, 0, 100, 40)];
     labelOption.textColor = [UIColor blackColor];
     labelOption.backgroundColor = [UIColor clearColor];
     labelOption.textAlignment = UITextAlignmentCenter;
-    labelOption.font = [UIFont fontWithName:@"Chalkboard SE" size:20];
+    labelOption.font = [UIFont fontWithName:@"Chalkboard SE" size:14];
     
     Car *car = [[Car alloc] init];
     if (indexPath.section == 0) {
