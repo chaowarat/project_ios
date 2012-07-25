@@ -34,11 +34,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    labelManufacture.text = car.manufacture;
-    labelModel.text = car.model;
-    labelYear.text = car.year;
-    labelPrice.text = car.price;
-    labelAvailable.text = car.available;
+    
+    UIFont *font = [UIFont fontWithName:@"Chalkboard SE" size:20];
+    
+    labelManufacture.text = [NSString stringWithFormat: @"Manufacture:  %@", car.manufacture];
+    labelManufacture.font = font;
+    labelModel.text = [NSString stringWithFormat:@"Model:        %@", car.model];
+    labelModel.font = font;
+    labelYear.text = [NSString stringWithFormat:@"Year:         %@", car.year];
+    labelYear.font = font;
+    labelPrice.text = [NSString stringWithFormat:@"Price:        %@", car.price];
+    labelPrice.font = font;
+    labelAvailable.text = [NSString stringWithFormat:@"Available:    %@", car.available];
+    labelAvailable.font = font;
 }
 
 - (IBAction)touchButton:(id)sender{
