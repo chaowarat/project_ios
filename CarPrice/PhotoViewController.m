@@ -27,7 +27,7 @@
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
-    NSString *imageName = [NSString stringWithFormat:@"%@ %@.jpg", car.manufacture, car.model];
+    NSString *imageName = [NSString stringWithFormat:@"%@ %@.png", car.manufacture, car.model];
     if(car != nil){
         self.imageView.image = [UIImage imageNamed:imageName];
     }
