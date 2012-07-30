@@ -43,7 +43,14 @@
     labelModel.font = font;
     labelYear.text = [NSString stringWithFormat:@"Year:         %@", car.year];
     labelYear.font = font;
-    labelPrice.text = [NSString stringWithFormat:@"Price:        %@", car.price];
+    
+    NSNumberFormatter * formatter = [[[NSNumberFormatter alloc] init] autorelease];
+    formatter.numberStyle = NSNumberFormatterCurrencyStyle;
+    formatter.currencyCode = @"";
+    formatter.maximumFractionDigits = 0;
+    NSString * formattedAmount = [formatter stringFromNumber: [NSNumber numberWithFloat: [car.price intValue]]];
+    
+    labelPrice.text = [NSString stringWithFormat:@"Price:        %@ Bath", formattedAmount];
     labelPrice.font = font;
     labelAvailable.text = [NSString stringWithFormat:@"Available:    %@", car.available];
     labelAvailable.font = font;
