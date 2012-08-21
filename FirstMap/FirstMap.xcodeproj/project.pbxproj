@@ -61,8 +61,6 @@
 			children = (
 				3FCE6B6715E1E85900BB3ED8 /* Building.h */,
 				3FCE6B6815E1E85900BB3ED8 /* Building.m */,
-				3FCE6B5915E1E2C400BB3ED8 /* MapKit.framework */,
-				3FCE6B5715E1E2BA00BB3ED8 /* CoreLocation.framework */,
 				3FCE6B4015E1E27E00BB3ED8 /* FirstMap */,
 				3FCE6B3915E1E27E00BB3ED8 /* Frameworks */,
 				3FCE6B3715E1E27E00BB3ED8 /* Products */,
@@ -80,6 +78,8 @@
 		3FCE6B3915E1E27E00BB3ED8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FCE6B5915E1E2C400BB3ED8 /* MapKit.framework */,
+				3FCE6B5715E1E2BA00BB3ED8 /* CoreLocation.framework */,
 				3FCE6B3A15E1E27E00BB3ED8 /* UIKit.framework */,
 				3FCE6B3C15E1E27E00BB3ED8 /* Foundation.framework */,
 				3FCE6B3E15E1E27E00BB3ED8 /* CoreGraphics.framework */,
@@ -286,6 +286,7 @@
 				3FCE6B5615E1E27E00BB3ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
