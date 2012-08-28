@@ -101,7 +101,24 @@
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
-    //[self performsea]
+    [self performSearch];
+    [self.searchBar resignFirstResponder];
+}
+
+-(void) performSearch{
+    NSString *search = [NSString stringWithFormat:@"https://ajax.googleapis.com/ajax/services/search/images?v=1.0&rsz=8&q=%@", self.searchBar.text];
+    NSURL *url = [NSURL URLWithString:search];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
+    AFJSONRequestOperation  *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
+        
+        result = [[JSON valueForKeyPath:@"responseData.results"] retain];
+        [self updateUI];
+        
+    }failure:nil];
+    
+    [operation start];
+
 }
 
 @end
