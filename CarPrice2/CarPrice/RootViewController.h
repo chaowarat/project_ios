@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface RootViewController : UITableViewController{
+    NSArray *results;
     NSMutableArray *listSmallPrice;
     NSMutableArray *listBigPrice;
 }

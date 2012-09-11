@@ -10,12 +10,38 @@
 #import "DetailViewController.h"
 #import "CarData.h"
 #import "Car.h"
+#import "AFNetworking.h"
 
 @interface RootViewController ()
 
 @end
 
 @implementation RootViewController
+
+- (void)updateCarList
+{
+    NSLog(@"Found %d images...",results.count);
+    for (int i = 0; i<results.count; i++) {
+        Car *car = [[Car alloc] init];
+        NSDictionary *item = [results objectAtIndex:i];
+        car.manufacture = [item valueForKey:@"manufacturer"];
+        car.model = [item valueForKey:@"model"];
+        car.year = [item valueForKey:@"year"];
+        car.price = [item valueForKey:@"price"];
+        car.available = [item valueForKey:@"available"];
+        NSString *image = [item valueForKey:@"image"];
+        car.image = [NSString stringWithFormat:@"http://www.padcraft.co.uk/complang/images/cars/%@.jpg",image];
+        
+        if ([car.price intValue] < 500000 ) {
+            [listSmallPrice addObject:car];
+        }
+        else {
+            [listBigPrice addObject:car];
+        }
+        NSLog(@"manu: %@",car.price);
+    }
+[self.tableView reloadData];
+}
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -29,8 +55,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    listSmallPrice = [CarData smallPrice];
-    listBigPrice = [CarData bigPrice];
+    
+    NSString *urlSearch = [NSString stringWithFormat:@"http://www.padcraft.co.uk/complang/cars.json"];
+    NSURL *url = [NSURL URLWithString:urlSearch];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response,id json) {results = [[json valueForKeyPath:@"cars"] retain];
+        [self updateCarList];
+    }failure:nil];
+    [operation start];
 
     self.navigationItem.title = @"Car Price Comparison";
 }

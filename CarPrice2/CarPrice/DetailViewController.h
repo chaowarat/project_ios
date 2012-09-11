@@ -10,8 +10,6 @@
 #import "Car.h"
 
 @interface DetailViewController : UIViewController{
-    NSArray *results;
-    
     Car *car;
     UILabel *labelManufacture;
     UILabel *labelModel;

@@ -8,7 +8,6 @@
 
 #import "DetailViewController.h"
 #import "PhotoViewController.h"
-#import "AFNetworking.h"
 
 @interface DetailViewController ()
 
@@ -18,22 +17,6 @@
 @synthesize car, labelManufacture, labelModel, labelYear;
 @synthesize segment, labelPrice, labelAvailable;
 
-
-- (void)updateUI
-{
-    NSLog(@"Found %d images...",results.count);
-    for (int i = 0; i<results.count; i++) {
-        NSDictionary *item = [results objectAtIndex:i];
-        car.manufacture = [item valueForKey:@"manufacturer"];
-        car.model = [item valueForKey:@"model"];
-        car.year = [item valueForKey:@"year"];
-        car.available = [item valueForKey:@"available"];
-        NSString *image = [item valueForKey:@"image"];
-        car.image = [NSString stringWithFormat:@"http://www.padcraft.co.uk/complang/images/cars/%@.jpg",image];
-
-        NSLog(@"manu: %@",[item valueForKey:@"manufacturer"]);
-    }
-}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -51,14 +34,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    NSString *urlSearch = [NSString stringWithFormat:@"http://www.padcraft.co.uk/complang/cars.json"];
-    NSURL *url = [NSURL URLWithString:urlSearch];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response,id json) {results = [[json valueForKeyPath:@"cars"] retain];
-        [self updateUI];
-    }failure:nil];
-    [operation start];
     
     UIFont *font = [UIFont fontWithName:@"Chalkboard SE" size:20];
     
