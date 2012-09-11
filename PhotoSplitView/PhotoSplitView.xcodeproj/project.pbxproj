@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1D085215FD9CCE001EFF54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1D085115FD9CCE001EFF54 /* UIKit.framework */; };
+		3F1D085415FD9CCE001EFF54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1D085315FD9CCE001EFF54 /* Foundation.framework */; };
+		3F1D085615FD9CCE001EFF54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1D085515FD9CCE001EFF54 /* CoreGraphics.framework */; };
+		3F1D085C15FD9CCE001EFF54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D085A15FD9CCE001EFF54 /* InfoPlist.strings */; };
+		3F1D085E15FD9CCE001EFF54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D085D15FD9CCE001EFF54 /* main.m */; };
+		3F1D086215FD9CCE001EFF54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D086115FD9CCE001EFF54 /* AppDelegate.m */; };
+		3F1D086515FD9CCE001EFF54 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D086415FD9CCE001EFF54 /* MasterViewController.m */; };
+		3F1D086815FD9CCE001EFF54 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D086715FD9CCE001EFF54 /* DetailViewController.m */; };
+		3F1D086B15FD9CCE001EFF54 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D086915FD9CCE001EFF54 /* MasterViewController.xib */; };
+		3F1D086E15FD9CCE001EFF54 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D086C15FD9CCE001EFF54 /* DetailViewController.xib */; };
+		3F1D088E15FD9E74001EFF54 /* CollectPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D088215FD9E16001EFF54 /* CollectPhotos.m */; };
+		3F1D088F15FD9E77001EFF54 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D088D15FD9E16001EFF54 /* Photo.m */; };
+		3F1D089015FDA085001EFF54 /* aix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D088415FD9E16001EFF54 /* aix.jpg */; };
+		3F1D089115FDA087001EFF54 /* barcelona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D088515FD9E16001EFF54 /* barcelona.jpg */; };
+		3F1D089215FDA089001EFF54 /* cambridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D088615FD9E16001EFF54 /* cambridge.jpg */; };
+		3F1D089315FDA08C001EFF54 /* koli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D088715FD9E16001EFF54 /* koli.jpg */; };
+		3F1D089415FDA08E001EFF54 /* new-york.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D088815FD9E16001EFF54 /* new-york.jpg */; };
+		3F1D089515FDA090001EFF54 /* petronas-twin-towers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D088915FD9E16001EFF54 /* petronas-twin-towers.jpg */; };
+		3F1D089615FDA093001EFF54 /* santa-monica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D088A15FD9E16001EFF54 /* santa-monica.jpg */; };
+		3F1D089715FDA096001EFF54 /* sukhothai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D088B15FD9E16001EFF54 /* sukhothai.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F1D084D15FD9CCE001EFF54 /* PhotoSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1D085115FD9CCE001EFF54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F1D085315FD9CCE001EFF54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F1D085515FD9CCE001EFF54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F1D085915FD9CCE001EFF54 /* PhotoSplitView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoSplitView-Info.plist"; sourceTree = "<group>"; };
+		3F1D085B15FD9CCE001EFF54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F1D085D15FD9CCE001EFF54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F1D085F15FD9CCE001EFF54 /* PhotoSplitView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoSplitView-Prefix.pch"; sourceTree = "<group>"; };
+		3F1D086015FD9CCE001EFF54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F1D086115FD9CCE001EFF54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F1D086315FD9CCE001EFF54 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		3F1D086415FD9CCE001EFF54 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		3F1D086615FD9CCE001EFF54 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3F1D086715FD9CCE001EFF54 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3F1D086A15FD9CCE001EFF54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		3F1D086D15FD9CCE001EFF54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		3F1D088115FD9E16001EFF54 /* CollectPhotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectPhotos.h; sourceTree = "<group>"; };
+		3F1D088215FD9E16001EFF54 /* CollectPhotos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectPhotos.m; sourceTree = "<group>"; };
+		3F1D088415FD9E16001EFF54 /* aix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aix.jpg; sourceTree = "<group>"; };
+		3F1D088515FD9E16001EFF54 /* barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcelona.jpg; sourceTree = "<group>"; };
+		3F1D088615FD9E16001EFF54 /* cambridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cambridge.jpg; sourceTree = "<group>"; };
+		3F1D088715FD9E16001EFF54 /* koli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koli.jpg; sourceTree = "<group>"; };
+		3F1D088815FD9E16001EFF54 /* new-york.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "new-york.jpg"; sourceTree = "<group>"; };
+		3F1D088915FD9E16001EFF54 /* petronas-twin-towers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "petronas-twin-towers.jpg"; sourceTree = "<group>"; };
+		3F1D088A15FD9E16001EFF54 /* santa-monica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "santa-monica.jpg"; sourceTree = "<group>"; };
+		3F1D088B15FD9E16001EFF54 /* sukhothai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sukhothai.jpg; sourceTree = "<group>"; };
+		3F1D088C15FD9E16001EFF54 /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		3F1D088D15FD9E16001EFF54 /* Photo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1D084A15FD9CCE001EFF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1D085215FD9CCE001EFF54 /* UIKit.framework in Frameworks */,
+				3F1D085415FD9CCE001EFF54 /* Foundation.framework in Frameworks */,
+				3F1D085615FD9CCE001EFF54 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1D084215FD9CCD001EFF54 = {
+			isa = PBXGroup;
+			children = (
+				3F1D085715FD9CCE001EFF54 /* PhotoSplitView */,
+				3F1D085015FD9CCE001EFF54 /* Frameworks */,
+				3F1D084E15FD9CCE001EFF54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1D084E15FD9CCE001EFF54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1D084D15FD9CCE001EFF54 /* PhotoSplitView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1D085015FD9CCE001EFF54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F1D085115FD9CCE001EFF54 /* UIKit.framework */,
+				3F1D085315FD9CCE001EFF54 /* Foundation.framework */,
+				3F1D085515FD9CCE001EFF54 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F1D085715FD9CCE001EFF54 /* PhotoSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				3F1D088115FD9E16001EFF54 /* CollectPhotos.h */,
+				3F1D088215FD9E16001EFF54 /* CollectPhotos.m */,
+				3F1D088315FD9E16001EFF54 /* Images */,
+				3F1D088C15FD9E16001EFF54 /* Photo.h */,
+				3F1D088D15FD9E16001EFF54 /* Photo.m */,
+				3F1D086015FD9CCE001EFF54 /* AppDelegate.h */,
+				3F1D086115FD9CCE001EFF54 /* AppDelegate.m */,
+				3F1D086315FD9CCE001EFF54 /* MasterViewController.h */,
+				3F1D086415FD9CCE001EFF54 /* MasterViewController.m */,
+				3F1D086615FD9CCE001EFF54 /* DetailViewController.h */,
+				3F1D086715FD9CCE001EFF54 /* DetailViewController.m */,
+				3F1D086915FD9CCE001EFF54 /* MasterViewController.xib */,
+				3F1D086C15FD9CCE001EFF54 /* DetailViewController.xib */,
+				3F1D085815FD9CCE001EFF54 /* Supporting Files */,
+			);
+			path = PhotoSplitView;
+			sourceTree = "<group>";
+		};
+		3F1D085815FD9CCE001EFF54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F1D085915FD9CCE001EFF54 /* PhotoSplitView-Info.plist */,
+				3F1D085A15FD9CCE001EFF54 /* InfoPlist.strings */,
+				3F1D085D15FD9CCE001EFF54 /* main.m */,
+				3F1D085F15FD9CCE001EFF54 /* PhotoSplitView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F1D088315FD9E16001EFF54 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3F1D088415FD9E16001EFF54 /* aix.jpg */,
+				3F1D088515FD9E16001EFF54 /* barcelona.jpg */,
+				3F1D088615FD9E16001EFF54 /* cambridge.jpg */,
+				3F1D088715FD9E16001EFF54 /* koli.jpg */,
+				3F1D088815FD9E16001EFF54 /* new-york.jpg */,
+				3F1D088915FD9E16001EFF54 /* petronas-twin-towers.jpg */,
+				3F1D088A15FD9E16001EFF54 /* santa-monica.jpg */,
+				3F1D088B15FD9E16001EFF54 /* sukhothai.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1D084C15FD9CCE001EFF54 /* PhotoSplitView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1D087115FD9CCE001EFF54 /* Build configuration list for PBXNativeTarget "PhotoSplitView" */;
+			buildPhases = (
+				3F1D084915FD9CCE001EFF54 /* Sources */,
+				3F1D084A15FD9CCE001EFF54 /* Frameworks */,
+				3F1D084B15FD9CCE001EFF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoSplitView;
+			productName = PhotoSplitView;
+			productReference = 3F1D084D15FD9CCE001EFF54 /* PhotoSplitView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1D084415FD9CCD001EFF54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3F1D084715FD9CCD001EFF54 /* Build configuration list for PBXProject "PhotoSplitView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F1D084215FD9CCD001EFF54;
+			productRefGroup = 3F1D084E15FD9CCE001EFF54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1D084C15FD9CCE001EFF54 /* PhotoSplitView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1D084B15FD9CCE001EFF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1D085C15FD9CCE001EFF54 /* InfoPlist.strings in Resources */,
+				3F1D086B15FD9CCE001EFF54 /* MasterViewController.xib in Resources */,
+				3F1D086E15FD9CCE001EFF54 /* DetailViewController.xib in Resources */,
+				3F1D089015FDA085001EFF54 /* aix.jpg in Resources */,
+				3F1D089115FDA087001EFF54 /* barcelona.jpg in Resources */,
+				3F1D089215FDA089001EFF54 /* cambridge.jpg in Resources */,
+				3F1D089315FDA08C001EFF54 /* koli.jpg in Resources */,
+				3F1D089415FDA08E001EFF54 /* new-york.jpg in Resources */,
+				3F1D089515FDA090001EFF54 /* petronas-twin-towers.jpg in Resources */,
+				3F1D089615FDA093001EFF54 /* santa-monica.jpg in Resources */,
+				3F1D089715FDA096001EFF54 /* sukhothai.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1D084915FD9CCE001EFF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1D085E15FD9CCE001EFF54 /* main.m in Sources */,
+				3F1D086215FD9CCE001EFF54 /* AppDelegate.m in Sources */,
+				3F1D086515FD9CCE001EFF54 /* MasterViewController.m in Sources */,
+				3F1D086815FD9CCE001EFF54 /* DetailViewController.m in Sources */,
+				3F1D088E15FD9E74001EFF54 /* CollectPhotos.m in Sources */,
+				3F1D088F15FD9E77001EFF54 /* Photo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F1D085A15FD9CCE001EFF54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1D085B15FD9CCE001EFF54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F1D086915FD9CCE001EFF54 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1D086A15FD9CCE001EFF54 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		3F1D086C15FD9CCE001EFF54 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1D086D15FD9CCE001EFF54 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1D086F15FD9CCE001EFF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3F1D087015FD9CCE001EFF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1D087215FD9CCE001EFF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoSplitView/PhotoSplitView-Prefix.pch";
+				INFOPLIST_FILE = "PhotoSplitView/PhotoSplitView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F1D087315FD9CCE001EFF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoSplitView/PhotoSplitView-Prefix.pch";
+				INFOPLIST_FILE = "PhotoSplitView/PhotoSplitView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1D084715FD9CCD001EFF54 /* Build configuration list for PBXProject "PhotoSplitView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1D086F15FD9CCE001EFF54 /* Debug */,
+				3F1D087015FD9CCE001EFF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1D087115FD9CCE001EFF54 /* Build configuration list for PBXNativeTarget "PhotoSplitView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1D087215FD9CCE001EFF54 /* Debug */,
+				3F1D087315FD9CCE001EFF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F1D084415FD9CCD001EFF54 /* Project object */;
+}

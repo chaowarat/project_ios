@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FD5F42415F59599002D2F19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD5F42315F59599002D2F19 /* UIKit.framework */; };
+		3FD5F42615F59599002D2F19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD5F42515F59599002D2F19 /* Foundation.framework */; };
+		3FD5F42815F59599002D2F19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD5F42715F59599002D2F19 /* CoreGraphics.framework */; };
+		3FD5F42E15F59599002D2F19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FD5F42C15F59599002D2F19 /* InfoPlist.strings */; };
+		3FD5F43015F59599002D2F19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5F42F15F59599002D2F19 /* main.m */; };
+		3FD5F43415F59599002D2F19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5F43315F59599002D2F19 /* AppDelegate.m */; };
+		3FD5F43715F59599002D2F19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5F43615F59599002D2F19 /* ViewController.m */; };
+		3FD5F43A15F59599002D2F19 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD5F43815F59599002D2F19 /* ViewController.xib */; };
+		3FD5F44315F5966B002D2F19 /* panda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FD5F44215F5966B002D2F19 /* panda.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FD5F41F15F59599002D2F19 /* Touches2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touches2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD5F42315F59599002D2F19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FD5F42515F59599002D2F19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FD5F42715F59599002D2F19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FD5F42B15F59599002D2F19 /* Touches2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Touches2-Info.plist"; sourceTree = "<group>"; };
+		3FD5F42D15F59599002D2F19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FD5F42F15F59599002D2F19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FD5F43115F59599002D2F19 /* Touches2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Touches2-Prefix.pch"; sourceTree = "<group>"; };
+		3FD5F43215F59599002D2F19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FD5F43315F59599002D2F19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FD5F43515F59599002D2F19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FD5F43615F59599002D2F19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FD5F43915F59599002D2F19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3FD5F44215F5966B002D2F19 /* panda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panda.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FD5F41C15F59599002D2F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD5F42415F59599002D2F19 /* UIKit.framework in Frameworks */,
+				3FD5F42615F59599002D2F19 /* Foundation.framework in Frameworks */,
+				3FD5F42815F59599002D2F19 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FD5F41415F59599002D2F19 = {
+			isa = PBXGroup;
+			children = (
+				3FD5F44215F5966B002D2F19 /* panda.jpg */,
+				3FD5F42915F59599002D2F19 /* Touches2 */,
+				3FD5F42215F59599002D2F19 /* Frameworks */,
+				3FD5F42015F59599002D2F19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FD5F42015F59599002D2F19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FD5F41F15F59599002D2F19 /* Touches2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FD5F42215F59599002D2F19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FD5F42315F59599002D2F19 /* UIKit.framework */,
+				3FD5F42515F59599002D2F19 /* Foundation.framework */,
+				3FD5F42715F59599002D2F19 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FD5F42915F59599002D2F19 /* Touches2 */ = {
+			isa = PBXGroup;
+			children = (
+				3FD5F43215F59599002D2F19 /* AppDelegate.h */,
+				3FD5F43315F59599002D2F19 /* AppDelegate.m */,
+				3FD5F43515F59599002D2F19 /* ViewController.h */,
+				3FD5F43615F59599002D2F19 /* ViewController.m */,
+				3FD5F43815F59599002D2F19 /* ViewController.xib */,
+				3FD5F42A15F59599002D2F19 /* Supporting Files */,
+			);
+			path = Touches2;
+			sourceTree = "<group>";
+		};
+		3FD5F42A15F59599002D2F19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FD5F42B15F59599002D2F19 /* Touches2-Info.plist */,
+				3FD5F42C15F59599002D2F19 /* InfoPlist.strings */,
+				3FD5F42F15F59599002D2F19 /* main.m */,
+				3FD5F43115F59599002D2F19 /* Touches2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FD5F41E15F59599002D2F19 /* Touches2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FD5F43D15F59599002D2F19 /* Build configuration list for PBXNativeTarget "Touches2" */;
+			buildPhases = (
+				3FD5F41B15F59599002D2F19 /* Sources */,
+				3FD5F41C15F59599002D2F19 /* Frameworks */,
+				3FD5F41D15F59599002D2F19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touches2;
+			productName = Touches2;
+			productReference = 3FD5F41F15F59599002D2F19 /* Touches2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FD5F41615F59599002D2F19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3FD5F41915F59599002D2F19 /* Build configuration list for PBXProject "Touches2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3FD5F41415F59599002D2F19;
+			productRefGroup = 3FD5F42015F59599002D2F19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FD5F41E15F59599002D2F19 /* Touches2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FD5F41D15F59599002D2F19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD5F42E15F59599002D2F19 /* InfoPlist.strings in Resources */,
+				3FD5F43A15F59599002D2F19 /* ViewController.xib in Resources */,
+				3FD5F44315F5966B002D2F19 /* panda.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FD5F41B15F59599002D2F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD5F43015F59599002D2F19 /* main.m in Sources */,
+				3FD5F43415F59599002D2F19 /* AppDelegate.m in Sources */,
+				3FD5F43715F59599002D2F19 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FD5F42C15F59599002D2F19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD5F42D15F59599002D2F19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FD5F43815F59599002D2F19 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD5F43915F59599002D2F19 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FD5F43B15F59599002D2F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FD5F43C15F59599002D2F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FD5F43E15F59599002D2F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Touches2/Touches2-Prefix.pch";
+				INFOPLIST_FILE = "Touches2/Touches2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FD5F43F15F59599002D2F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Touches2/Touches2-Prefix.pch";
+				INFOPLIST_FILE = "Touches2/Touches2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FD5F41915F59599002D2F19 /* Build configuration list for PBXProject "Touches2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD5F43B15F59599002D2F19 /* Debug */,
+				3FD5F43C15F59599002D2F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD5F43D15F59599002D2F19 /* Build configuration list for PBXNativeTarget "Touches2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD5F43E15F59599002D2F19 /* Debug */,
+				3FD5F43F15F59599002D2F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FD5F41615F59599002D2F19 /* Project object */;
+}
