@@ -27,7 +27,7 @@
     
     FirstViewController *firstViewController = [[[FirstViewController alloc] initWithNibName:nil bundle:nil] autorelease];
     UINavigationController *navController = [[[UINavigationController alloc] initWithRootViewController:firstViewController] autorelease];
-    
+    navController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
     self.window.rootViewController = navController;
     
     [self.window makeKeyAndVisible];

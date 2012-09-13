@@ -8,6 +8,7 @@
 
 #import "FirstViewController.h"
 #import "RootViewController.h"
+#import "GalleryViewController.h"
 #import "Car.h"
 #import "AFNetworking.h"
 
@@ -28,6 +29,7 @@
 
 - (void) viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden = YES;
 }
 
 - (void)updateCarList
@@ -57,20 +59,29 @@
     rootViewController.listBigPrice = listBigPrice;
     rootViewController.listSmallPrice = listSmallPrice;
     rootViewController.navigationItem.title = self.navigationItem.title;
-    self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
+    
+    self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Home" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
     
     [self.navigationController pushViewController:rootViewController animated:YES];
 
 }
 
 -(IBAction)galleryTouch:(id)sender{
+    GalleryViewController *galleryViewController = [[GalleryViewController alloc] init];
+    galleryViewController.navigationItem.title = self.navigationItem.title;
     
+    self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
+    
+    [self.navigationController pushViewController:galleryViewController animated:YES];
+
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.navigationItem.title = @"Car Price Comparison";
+    UIImage *image = [UIImage imageNamed:@"launch.png"];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+    
     listSmallPrice = [[NSMutableArray alloc] init];
     listBigPrice = [[NSMutableArray alloc] init];
     

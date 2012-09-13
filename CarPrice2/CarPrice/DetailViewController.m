@@ -33,6 +33,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor grayColor];
     
     UIFont *font = [UIFont fontWithName:@"Chalkboard SE" size:20];
     

@@ -26,10 +26,16 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:YES];
+    self.navigationController.navigationBarHidden = NO;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     self.navigationItem.title = @"Car Price";
+    self.tableView.backgroundColor = [UIColor grayColor];
 }
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{

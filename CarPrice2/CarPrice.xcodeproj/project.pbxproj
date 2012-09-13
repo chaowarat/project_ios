@@ -30,6 +30,10 @@
 		3FE6C1FC15BD08F300D3A0D2 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6C1FB15BD08F300D3A0D2 /* Car.m */; };
 		3FE6C20715BD10D900D3A0D2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6C20515BD10D900D3A0D2 /* DetailViewController.m */; };
 		3FE6C20815BD10D900D3A0D2 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6C20615BD10D900D3A0D2 /* DetailViewController.xib */; };
+		855126081600EFFC003EE25B /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 855126061600EFFC003EE25B /* launch.png */; };
+		855C776E1601E60000C9B3B7 /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C776C1601E60000C9B3B7 /* GalleryViewController.m */; };
+		855C776F1601E60000C9B3B7 /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 855C776D1601E60000C9B3B7 /* GalleryViewController.xib */; };
+		8567C80C1601B25B009B0D45 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8567C80B1601B25B009B0D45 /* button.png */; };
 		85BB83A415FFAF7A0093FDFB /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 85BB83A315FFAF7A0093FDFB /* loading.png */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +80,11 @@
 		3FE6C20415BD10D900D3A0D2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		3FE6C20515BD10D900D3A0D2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		3FE6C20615BD10D900D3A0D2 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		855126061600EFFC003EE25B /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = CarPrice/images/launch.png; sourceTree = "<group>"; };
+		855C776B1601E60000C9B3B7 /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		855C776C1601E60000C9B3B7 /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		855C776D1601E60000C9B3B7 /* GalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryViewController.xib; sourceTree = "<group>"; };
+		8567C80B1601B25B009B0D45 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = CarPrice/images/button.png; sourceTree = "<group>"; };
 		85BB83A315FFAF7A0093FDFB /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading.png; path = CarPrice/images/loading.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +133,8 @@
 		3FE0F05115BE4100003C21D6 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				8567C80B1601B25B009B0D45 /* button.png */,
+				855126061600EFFC003EE25B /* launch.png */,
 				85BB83A315FFAF7A0093FDFB /* loading.png */,
 			);
 			name = images;
@@ -161,12 +172,15 @@
 			isa = PBXGroup;
 			children = (
 				3F8355E415FECC860043E617 /* AFNetworking */,
-				3F8355C715FECA910043E617 /* FirstViewController.h */,
-				3F8355C815FECA910043E617 /* FirstViewController.m */,
-				3F8355C915FECA910043E617 /* FirstViewController.xib */,
 				3FE0F05115BE4100003C21D6 /* images */,
 				3FE6C1FA15BD08F300D3A0D2 /* Car.h */,
 				3FE6C1FB15BD08F300D3A0D2 /* Car.m */,
+				855C776B1601E60000C9B3B7 /* GalleryViewController.h */,
+				855C776C1601E60000C9B3B7 /* GalleryViewController.m */,
+				855C776D1601E60000C9B3B7 /* GalleryViewController.xib */,
+				3F8355C715FECA910043E617 /* FirstViewController.h */,
+				3F8355C815FECA910043E617 /* FirstViewController.m */,
+				3F8355C915FECA910043E617 /* FirstViewController.xib */,
 				3FE6C1F515BD07E900D3A0D2 /* RootViewController.h */,
 				3FE6C1F615BD07E900D3A0D2 /* RootViewController.m */,
 				3FE6C1F715BD07E900D3A0D2 /* RootViewController.xib */,
@@ -246,6 +260,9 @@
 				3FE6C20815BD10D900D3A0D2 /* DetailViewController.xib in Resources */,
 				3F8355CB15FECA910043E617 /* FirstViewController.xib in Resources */,
 				85BB83A415FFAF7A0093FDFB /* loading.png in Resources */,
+				855126081600EFFC003EE25B /* launch.png in Resources */,
+				8567C80C1601B25B009B0D45 /* button.png in Resources */,
+				855C776F1601E60000C9B3B7 /* GalleryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +289,7 @@
 				3F83560115FECC860043E617 /* AFURLConnectionOperation.m in Sources */,
 				3F83560215FECC860043E617 /* AFXMLRequestOperation.m in Sources */,
 				3F83560315FECC860043E617 /* UIImageView+AFNetworking.m in Sources */,
+				855C776E1601E60000C9B3B7 /* GalleryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
