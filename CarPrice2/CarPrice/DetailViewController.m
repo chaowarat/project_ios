@@ -34,7 +34,6 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
-    
     UIFont *font = [UIFont fontWithName:@"Chalkboard SE" size:20];
     
     labelManufacture.text = [NSString stringWithFormat: @"%@", car.manufacture];

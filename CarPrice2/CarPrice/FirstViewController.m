@@ -69,7 +69,7 @@
 -(IBAction)galleryTouch:(id)sender{
     GalleryViewController *galleryViewController = [[GalleryViewController alloc] init];
     galleryViewController.navigationItem.title = @"Gallery";
-    
+
     self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
     
     [self.navigationController pushViewController:galleryViewController animated:YES];
