@@ -94,16 +94,13 @@
 		topLabel.font = [UIFont systemFontOfSize:30];
         
 		// Create a background image view.
-		cell.backgroundView =
-        [[[UIImageView alloc] init] autorelease];
-		cell.selectedBackgroundView =
-        [[[UIImageView alloc] init] autorelease];
+		cell.backgroundView = [[[UIImageView alloc] init] autorelease];
+		cell.selectedBackgroundView = [[[UIImageView alloc] init] autorelease];
     }
     else
 	{
 		topLabel = (UILabel *)[cell viewWithTag:10];
-	}
-    
+	}    
     
     Car *car = [[Car alloc] init];
     if (indexPath.section == 0) {
